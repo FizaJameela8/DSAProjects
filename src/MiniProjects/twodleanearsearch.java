@@ -15,7 +15,7 @@ public class twodleanearsearch {
 	int search=sc.nextInt();
 	int[] ans=ls(a,search);
 	if(ans[0]!=-1) {
-		System.out.println("found at position row "+ans[0]+"col:"+ans[1]);
+		System.out.println("found at position row "+ans[0]+" col:"+ans[1]);
 	}
 	else {
 		System.out.println("Notfound");
